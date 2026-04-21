@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+langchain
+langchain-core
+langchain-community
+langchain-groq
+huggingface_hub
+faiss-cpu
+supabase
