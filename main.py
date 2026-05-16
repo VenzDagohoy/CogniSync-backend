@@ -38,7 +38,7 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY) if SUPABASE_URL and
 
 # 2. INITIALIZE AI MODEL (Groq / Llama 3.1)
 API_KEY = os.getenv("GROQ_API_KEY")
-llm = ChatGroq(groq_api_key=API_KEY, model_name="llama-3.1-8b-instant", temperature=0.7)
+llm = ChatGroq(groq_api_key=API_KEY, model_name="llama-3.3-70b-versatile", temperature=0.7)
 
 # 3. BUILD FAISS VECTOR DATABASE (RAG)
 print("Loading Research Database...")
